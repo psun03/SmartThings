@@ -48,8 +48,8 @@ long duration, inches, cm;
 //******************************************************************************************
 //ESP8266 WiFi Information    CHANGE THIS INFORMATION ACCORDINGLY FOR YOUR NETWORK!
 //******************************************************************************************
-String str_ssid     = "WeGotDeathStar_24";                           //  <---You must edit this line!
-String str_password = "mollygolly";                   //  <---You must edit this line!
+String str_ssid     = "WIFI_SSID4";                           //  <---You must edit this line!
+String str_password = "PWD";                   //  <---You must edit this line!
 IPAddress ip(192, 168, 1, 203);       // Device IP Address      //  <---You must edit this line!
 IPAddress gateway(192, 168, 1, 1);    //router gateway          //  <---You must edit this line!
 IPAddress subnet(255, 255, 255, 0);   //LAN subnet mask         //  <---You must edit this line!
